@@ -9,6 +9,10 @@ body {
     color: #AF2929;
 }
 
+.img-home{
+	border-radius: 200px;
+}
+
 .center-title { 
 	text-align: center
 }
