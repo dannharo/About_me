@@ -9,6 +9,24 @@ body {
     color: #AF2929;
 }
 
+.menu-top{
+	width: 1499px; 
+	position: fixed; 
+	top: 0px;
+}
+
+.progress75{
+	width:75%;
+}
+
+.progress50{
+	width:50%;
+}
+
+.progress85{
+	width:85%;
+}
+
 .img-home{
 	border-radius: 200px;
 }
