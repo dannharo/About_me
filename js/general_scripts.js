@@ -18,5 +18,23 @@ $( function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if(scroll >= 1663){
+            $("#navbar li").removeClass( "active" );
+            $("#nav-contact").addClass("active");
+        }
+        else if(scroll >= 1373){
+            $("#navbar li").removeClass( "active" );
+            $("#nav-hobbies").addClass("active");
+        }
+        else if(scroll >= 713){
+            $("#navbar li").removeClass( "active" );
+            $("#nav-my-work").addClass("active");
+        }
+        else{
+            $("#navbar li").removeClass( "active" );
+            $("#nav-about-me").addClass("active");
+        }
+    });
   } );
